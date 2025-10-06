@@ -1,0 +1,36 @@
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+*.temp
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# エディタ設定
+.vscode/
+.idea/
+
+# 環境設定ファイル（機密情報含む可能性）
+.env
+config.local.js
+
+# GAS関連の機密情報
+gas-config.js
+webhook-urls.js
+auth-keys.js
+
+# バックアップファイル
+*.bak
+*.backup
+
+# テスト用データ
+test-data/
+sample-data/
+
+# 開発用ファイル
+dev-notes.txt
+todo-list.txt
+debug-*.js
